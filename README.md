@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Avec mon fourgon aménagé, lorsqu'on part en vadrouille en mode off-grid, c'est capital de connaitre l'état de chargement de la batterie cellule ainsi que la consommation électrique. Aujourd'hui je suis obligé de de sortir mon téléphone à tout bout de champ pour connaitre ces infos.
+Avec mon fourgon aménagé, lorsqu'on part en vadrouille en mode off-grid, c'est capital de connaitre l'état de chargement de la batterie cellule ainsi que la consommation électrique. Aujourd'hui je suis obligé de sortir mon téléphone à tout bout de champ pour connaitre ces infos.
 
 Victron Energy – la marque de mes panneaux solaire – met à disposition une documentation sur son protocole [VE.Direct](https://www.victronenergy.com/live/vedirect_protocol:faq) j'ai alors voulu essayer de lire les données depuis le contrôleur avec un microcontrôleur afin de pouvoir les afficher.
 
@@ -18,7 +18,7 @@ Le but de ce talk est de vous partager ce que j'ai aprris sur TinyGo et voir ce 
 
 + Présentation du projet TinyGo
 + Architecture et fonctionnemet global
-+ Avantages et limitations par rapport à d'autres solution comme Arduino et Micropython
++ Avantages et limitations par rapport à d'autres solutions comme Arduino et Micropython
 + Présentation du projet dans le cadre de mon fourgon
   + L'objectif et les enjeux
   + Le protocole [VE.Direct](https://www.victronenergy.com/live/vedirect_protocol:faq) et son implémentation en Go
